@@ -11,20 +11,9 @@ html, body {
 }
 .mdl-armine .mdl-layout__header-row {
   padding-left: 40px;
-  justify-content: center;
-}
-.mdl-armine .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
-  font-size: inherit;
 }
 .mdl-armine .mdl-layout__tab-bar-button {
   display: none;
-}
-.mdl-armine .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
-  display: none;
-}
-.mdl-armine .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
-.mdl-armine .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
-  overflow: visible;
 }
 .mdl-armine .mdl-layout__tab-bar-container {
   height: 64px;
@@ -35,15 +24,10 @@ html, body {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  justify-content: center;
 }
 .mdl-armine .mdl-layout__tab-bar .mdl-layout__tab {
   height: 64px;
   line-height: 64px;
-}
-.mdl-armine .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
-  background-color: white;
-  height: 4px;
 }
 .mdl-armine main > .mdl-layout__tab-panel {
   padding: 8px;
@@ -103,10 +87,10 @@ html, body {
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
+       -ms-flex-align: center;
           align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
+            -ms-flex-pack: center;
           justify-content: center;
 }
 .mdl-armine section > header > .material-icons {
@@ -123,24 +107,24 @@ html, body {
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
+       -ms-flex-align: center;
           align-items: center;
   -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
+            -ms-flex-pack: start;
           justify-content: flex-start;
   -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
+  -ms-flex-positive: 0;
           flex-grow: 0;
   -webkit-flex-shrink: 1;
-      -ms-flex-negative: 1;
+    -ms-flex-negative: 1;
           flex-shrink: 1;
 }
 .mdl-armine section .section__text {
   -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
+  -ms-flex-positive: 1;
           flex-grow: 1;
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
+    -ms-flex-negative: 0;
           flex-shrink: 0;
   padding-top: 8px;
 }
@@ -159,7 +143,6 @@ html, body {
   margin: 8px 0;
 }
 .mdl-armine section.section--center .section__text:not(:last-child) {
-  /*border-bottom: 1px solid rgba(0,0,0,.13);*/
   margin-bottom: 32px;
 }
 .mdl-armine .mdl-card .mdl-card__supporting-text > h3:first-child {
@@ -175,4 +158,26 @@ html, body {
     font-size: 500%;
     padding-left: 16px;
     padding-top: 16px;
+}
+/* --- Specific for large screens --- */
+@media screen and (min-width: 1024px) {
+  .mdl-armine .mdl-layout__header-row {
+    justify-content: center;
+  }
+  .mdl-armine .mdl-layout__tab-bar {
+    justify-content: center;
+  }
+  .mdl-armine .mdl-layout .mdl-layout__tab-bar,
+  .mdl-armine .mdl-layout .mdl-layout__tab-bar-container {
+    overflow: visible;
+  }
+}
+/* --- Specific for small screens --- */
+@media screen and (max-width: 1024px) {
+  .mdl-armine .mdl-layout .mdl-layout__header-row h3 {
+    font-size: inherit;
+  }
+  .mdl-armine .mdl-layout .mdl-layout__tab-bar .mdl-button {
+    display: none;
+  }
 }
