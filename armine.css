@@ -159,6 +159,10 @@ html, body {
     padding-left: 16px;
     padding-top: 16px;
 }
+.mdl-armine .mdl-chip {
+  display: inline-flex;
+  vertical-align: middle;
+}
 /* --- Specific for large screens --- */
 @media screen and (min-width: 1024px) {
   .mdl-armine .mdl-layout__header-row {
