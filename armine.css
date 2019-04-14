@@ -163,6 +163,9 @@ html, body {
   display: inline-flex;
   vertical-align: middle;
 }
+ul.projects li {
+  margin-bottom: 1em;
+}
 /* --- Specific for large screens --- */
 @media screen and (min-width: 1024px) {
   .mdl-armine .mdl-layout__header-row {
