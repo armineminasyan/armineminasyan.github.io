@@ -1,0 +1,9 @@
+title: Armine Minasyan
+email: armine.minasyan357@gmail.com
+description: Home page of Armine Minasyan, a Data Analyst based in Barcelona, Spain
+baseurl: ""
+url: "https://armineminaysan.github.io/"
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme
+show_downloads: false
