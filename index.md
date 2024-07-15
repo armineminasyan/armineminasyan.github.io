@@ -23,6 +23,6 @@ You can explore a notebook with a thorough analysis, another one with insights r
 Visual Basic for Applications code to retrieve driving distances between all pair of locations by address.
 The list of addresses is in a spreadsheet.
 You need a Google Maps API token to use the code.
-4. **Discovering energy consumption patterns of residential and commercial users** ([Python Jupyter Notebook](https://github.com/armineminasyan/energy-consumption-clustering)).
-A classical task in unsupervised machine learning, using clustering and pattern mining.
-The dataset contains real-life enery consumption measurements of thousands of US buildings.
+4. **Discovering energy consumption patterns of commercial users** ([Python Jupyter Notebook](https://github.com/armineminasyan/energy-consumption-dataviz)).
+Data visualization techniques for time series data sampled hourly.
+It displays three powerful dataviz tools that can be used to summarize complex time series: quartile line plots, ghost line plots, and heatmaps.
