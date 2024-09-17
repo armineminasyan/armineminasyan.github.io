@@ -1,11 +1,11 @@
 # About me
 
-I am a **Data Scientist** with a specific focus on online marketplaces.
-My educational background in mathematics and engineering equips me with strong **analytical skills** to add value to online products across various platforms.
+I am a **Data Analyst** focusing on online marketplaces.
+My educational and professional background equips me with strong **analytical skills** to add value to online products across all platforms.
+I love to take end-to-end **ownership** of new analytics products, working with non-technical stakeholders, data analysts, and engineers to deliver high-impact analytics products that measurably impact the company's bottom line.
 I enjoy simplifying complex technical findings and offering **practical insights** to all team members.
 My communication style aims to bridge the gap between technical and non-technical stakeholders, ensuring that data-driven decisions are clear and actionable.
 
-* Read [my cv](files/cv.pdf).
 * Want to get in touch? [Send me an email](mailto:armine.minasyan357@gmail.com).
 
 # Resources
